@@ -16,7 +16,7 @@ const services_data = [
 { name: "Xcitedu", icon: "management" },
 { name: "Collabrative\nWorkspace", icon: "manufacturing" },
 { name: "FAQ", icon: "technical" },
-{ name: "Blank", icon: "process" }];
+{ name: "Developers", icon: "process" }];
 
 
 const services = document.getElementById("service-collection");
