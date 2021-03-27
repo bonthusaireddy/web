@@ -1,4 +1,4 @@
-console.clear();
+// console.clear();
 
 const line = document.getElementById('line');
 const rightHandle = document.getElementById('rightHandle');

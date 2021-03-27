@@ -72,7 +72,7 @@ body {
           right: 10px;
           background: #FFFFFF;
           transition: left .4s .2s, right .5s, background .35s -.1s; }
-    body span.switcher.switcher-2 {
+    /* body span.switcher.switcher-2 {
       overflow: hidden; }
       body span.switcher.switcher-2 input {
         transition: background-color 0s .5s; }
@@ -232,4 +232,4 @@ body {
               line-height: 45px;
               font-size: 1em;
               color: #fff; }
-
+ */
