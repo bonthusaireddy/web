@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Open Source</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="Style/style.css">
+    <link rel="stylesheet" href="Style/swapbtn.css">
+
+    
+</head>
+
+<body>
+    <section class="borders">
+        <div class="circle"></div>
+        <header>
+            <div class="navbar">
+                
+                <!-- <div id="navbar-brand">
+                 <img src="http://icons.iconarchive.com/icons/sirubico/black-metal/128/Web-b-icon.png">
+                </div> -->
+               <li id="home"><span id="htmltxt">HOME</span></li>
+               <li id="service"><span id="htmltxt">SERVICE</span></li>
+               <li id="new"><span id="htmltxt">NEW</span></li>
+               <li id="login"><span id="htmltxt">LOGIN</span></li>
+            </div>    
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <!-- <h2>Open Source</h2> -->
+                <img src="Resources/Images/OpenSource.png" alt="os" style="width:60%;">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been 
+                    the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a galley of type and scrambled it to make a type specimen book. </p>
+                    <!-- It has survived not only five centuries, but also the leap into electronic typesetting, 
+                    remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset 
+                    sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
+                    like Aldus PageMaker including versions of Lorem Ipsum.</p> -->
+                <a href="#">Learn More </a>
+    
+            </div>
+        </div>
+
+        <div class="imgBox">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+
+                  <!-- <div class="swiper-slide"><img src="Resources/Images/cola.png" style="width: 60%;"></div> -->
+                  <div class="swiper-slide"><img src="Resources/Images/Cards/sim01.png"></div>
+                  <div class="swiper-slide"><img src="Resources/Images/Cards/sim02.png"></div>
+                  <div class="swiper-slide"><img src="Resources/Images/Cards/sim03.png"></div>
+                  <div class="swiper-slide"><img src="Resources/Images/Cards/sim04.png"></div>
+                  
+                </div>
+                
+
+        </div>
+        </div>
+        <!-- <ul class="sci">
+            <li><a href="#"><img src="Resources/Images/"></a></li>
+        </ul> -->
+    </section>
+    
+    
+   
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- <script src="Script/toggle.js"></script> -->
+
+    <script>
+       
+
+        var swiper = new Swiper('.swiper-container', {
+          effect: 'coverflow',
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: 'auto',
+          coverflowEffect: {
+            rotate: 0,
+            stretch: 0,
+            depth: 200,
+            modifier: 1,
+            slideShadows: true,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+          },
+          loop:false, // True condition is scale sensitive
+        });
+
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.toggle');
+            const navigation = document.querySelector('.navigation');
+
+            menuToggle.classList.toggle('active')
+            
+            navigation.classList.toggle('active')
+        }
+    </script>
+    <div class="footer" >
+        
+        <p ><span>&#169; Xcitedu</span></p>
+    </div>
+    <span class="switcher switcher-1">
+        <input type="checkbox" id="switcher-1">
+        <label for="switcher-1"></label>
+     </span>
+     
+
+`    
+
+</body>
+</html>
