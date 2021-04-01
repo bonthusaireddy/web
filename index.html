@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!-- Xcitedu Software Solution Pvt. Ltd. -->
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>OS | Xcitedu</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap includes -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- end of bootstrap includes -->
+    <!-- for slider unpkg css package -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+
+    <!-- for navigation bar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <!-- mainstyle.css for the whole file -->
+    <link rel="stylesheet" href="style/mainStyle.css">
+    <!-- // navbarStyle.css css style sheet-->
+    <link rel="stylesheet" href="style/navbarStyle.css">
+    <!-- for center section css style sheet -->
+    <link rel="stylesheet" href="style/sectionStyle.css">
+    <!-- for slider css -->
+    <link rel="stylesheet" href="style/slider.css">
+    <!-- for circle css -->
+    <link rel="stylesheet" href="style/circle.css">
+    <!-- for btn switch -->
+    <link rel="stylesheet" href="style/btnswitcher.css">
+    <!-- for footer css -->
+    <link rel="stylesheet" href="style/footer.css">
+</head>
+
+<body>
+    <!-- only for navigation bar , The css is in navbarStyle.css-->
+    <div class="navigationBar">
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars"></i>
+            </label>
+            <a href="#"><img src="resources/images/logo.png" class="logo" alt="logo"></a>
+            <ul class="navigation">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- br is used to seperate navbar and center content -->
+    <br> 
+
+    <!-- This is for circle -->
+    <div class="circle"></div>
+    <!-- Main content of landing page, The css is in sectionStyle.css -->
+    <div class="sectionCenter">
+        <div class="container">
+            <div class="row" style="border: 0px red solid;">
+                <div class="col-sm-6">
+                    <img src="resources/images/OpenSource.png" alt="Open Source" class="openSourceImage"  />
+                    <div class="leftContent"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </div>
+                    <a href="#"></a>
+                </div>
+                <div class="col-sm-6">
+                    <div class="imgBox">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide"><img src="resources/images/cards/sim01.png"></div>
+                                <div class="swiper-slide"><img src="resources/images/cards/sim02.png"></div>
+                                <div class="swiper-slide"><img src="resources/images/cards/sim03.png"></div>
+                                <div class="swiper-slide"><img src="resources/images/cards/sim04.png"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Todo -->
+    <div class="btnSwitcher"> 
+        <div></div>
+        <div></div>
+    </div>
+    <div class="footer"><span>&#169; Xcitedu</span></div>
+
+    <!-- Package for slider -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- This is slider script downloaded local package -->
+    <script src="script/swiper-bundle.min.js"></script>
+    <!-- This script is for slider-->
+    <script src="script/slider.js"></script>
+</body>
+</html>

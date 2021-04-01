@@ -1,0 +1,4 @@
+/* This css is only for slider images */
+.swiper-container { margin-top: 60px; width: 100%; padding-top: 10px; padding-bottom: 50px; }
+.swiper-slide { background-position: center; background-size: cover;  width: 180px; height: 460px; display: flex; justify-content: center; }
+.swiper-slide img { position: absolute; bottom: 0; max-height: 100%; }

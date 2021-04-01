@@ -1,0 +1,9 @@
+/* This css is for the entire webpage */
+body  { margin: 0px; padding: 0px; background-color: rgb(133, 13, 202);}
+body { height: 100%; overflow:auto;}
+@media (max-width: 992px) {
+    body {
+        height: auto;
+        overflow:unset;
+    }
+}
