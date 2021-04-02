@@ -2,7 +2,7 @@
 .openSourceImage { width: 80%; margin-top: 10%; margin-left: -60px;}
 .sliderImage1 { width: 100%; }
 .sectionCenter { height: 100%; }
-.leftContent {margin-top: 10%;}
+.leftContent {margin-top: 10%; color: whitesmoke ;}
 
 @media (max-width: 1200px) { 
     .openSourceImage{ margin-left: unset;}
