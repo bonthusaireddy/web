@@ -25,4 +25,12 @@
   .navigationBar nav ul li a{ font-size: 20px; }
   .navigationBar a:hover,a.active{ background: none; color: #0082e6;}
   .navigationBar #check:checked ~ ul{ left: 0;}
+
+  /* This is only for navigation bar button */
+  #toggle { position: relative; width: 50px; height: 50px; background: #1b1b1b; cursor: pointer; display: flex; justify-content: center; align-items: center; transition: 5s; margin-top: 15px;}
+  #toggle::before{ content: ""; position: absolute; width: 28px; height: 4px; background: #fff; border-radius: 10px; transition: 0.2s; transform: translateY(-10px); box-shadow: 0 10px 0 #fff; }
+  #toggle::after{ content: ""; position: absolute; width: 28px; height: 4px;  background: #fff; border-radius: 10px; transition: 0.2s; transform: translateY(10px); }
+  #toggle.active{ background: #1b1b1b; }
+  #toggle.active::before{ transform: translateY(0px) rotate(45deg); box-shadow: 0 0 0  #fff; }
+  #toggle.active::after{ transform: translateY(0px) rotate(-45deg); }
 }
