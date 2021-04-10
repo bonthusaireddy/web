@@ -1,3 +1,24 @@
-/* .btnSwitch {
+.btnSwitch {
+    width: min-content;
+    height: min-content;
     position: relative;
-} */
+    display: flex;
+    align-items: center;
+    border: 3px solid rgb(34, 133, 67);
+    color: white;
+    border-radius: 20px;
+    margin: auto;
+    
+
+}
+
+.btnSwitch .active {
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.btnSwitch div {
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+}
