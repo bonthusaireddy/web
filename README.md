@@ -1,2 +1,0 @@
-# web
-Xcitedu web pages
